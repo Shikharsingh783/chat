@@ -39,7 +39,9 @@ class ChatPage extends StatelessWidget {
       body: Column(children: [
 
         //display all the messages
-        Expanded(child: _buildMessageList()),
+        Expanded(
+          child: _buildMessageList(),
+        ),
 
         //user input 
         _buildUserInput()
